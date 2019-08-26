@@ -8,7 +8,7 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 
 Solution Attempt #1: (In Java)
 
-```
+```java
 import java.util.HashMap;
 
 public class ProblemOne {
