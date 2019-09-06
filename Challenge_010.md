@@ -9,3 +9,23 @@ Follow Up: What are the ways would you test the above-written algorithm.
 
 #coding #challenge #easy
 ```
+
+Solution Attempt: #1 (In Java)
+```java
+public class ProblemTen {
+
+	public static void main(String[] args) {
+		String s = "OKOKOK";
+		
+		String updatedS = "";
+		
+		for(int i=0; i<s.length(); i++) {
+			if(updatedS.indexOf(s.charAt(i)) == -1) {
+				updatedS += s.charAt(i);
+			}
+		}
+		
+		System.out.println(updatedS);
+	}
+}
+```
